@@ -1,11 +1,7 @@
 import { useEffect } from "react";
-import TShirtStore from "./TShirtStore";
+import { TShirtStore } from "./t-shirt";
 
 function App() {
-  useEffect(() => {
-    document.title = "T-Shirts"; 
-  }, []);
-
   return (
     <div className="App">
       <TShirtStore />
@@ -14,4 +10,3 @@ function App() {
 }
 
 export default App;
-
